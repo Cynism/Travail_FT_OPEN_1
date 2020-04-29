@@ -29,7 +29,7 @@ library(FactoMineR)
 library(bookdown)
 library(knitr)
 library(tibble)
-#library(tinytex) pour éditer en PDF plus tard
+library(tinytex)
 
 ```
 

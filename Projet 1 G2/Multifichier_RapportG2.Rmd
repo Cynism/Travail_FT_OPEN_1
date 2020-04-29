@@ -1,16 +1,38 @@
 ---
-title: "Test 1"
-author: "C. Laroche"
-date: "29/04/2020"
+title: 'Compilation de données : R Markdown & GitHub'
+author: 'Groupe 2 : Louise ARSAC, Zélie FROMENT, Charlène LAROCHE, Paul SERVAIN, Axel
+  FALIGOT-GIRARDELLI, Juliette MAYER'
+date: "29/04/20"
 output: 
   html_document:
+    fig_caption: yes
+    number_sections: yes
     toc: yes
-    toc_float: yes #format glissant de la toc
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+  word_document:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 3 '3' #format glissant de la toc
+csl: iso690-author-date-fr-no-abstract.csl
+bibliography: biblio2.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 #ajouter toute les library nécessaires
+library(ade4)
+library(FactoMineR)
+library(bookdown)
+library(knitr)
+library(tibble)
+library(tinytex)
 ```
 
 ```{r logo, echo=FALSE, out.width = '80%', fig.align = "center",fig.cap="Logo Rmarkdown"}
@@ -27,22 +49,22 @@ knitr::include_graphics("rmarkdown.png")
 
 # **Présentation des données **
 
-```{r child='Présentation_données.Rmd'}
+```{r child='G2_PresentationDonnees.Rmd'}
 ```
 
 # **Une première analyse **
 
-```{r child='Première_analyse.Rmd'}
+```{r child='G2_PremiereAnalyse.Rmd'}
 ```
 
 # **Analyse en Composante Principale**
 
-```{r child='ACP.Rmd'}
+```{r child='G2_ACP.Rmd'}
 ```
 
 # **Références**
 
-```{r child='Ref.Rmd'}
+```{r child='G2_Ref.Rmd'}
 ```
 
 
