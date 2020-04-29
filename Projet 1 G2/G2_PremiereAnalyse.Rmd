@@ -1,0 +1,17 @@
+---
+title: "Une première analyse"
+author: "Louise Arsac"
+date: "29/04/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Une première analyse **
+
+```{r child='Première_analyse.Rmd'}
+
+```
+
