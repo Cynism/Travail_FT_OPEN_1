@@ -1,21 +1,25 @@
 ---
-title: "Compilation de données : R Markdown & GitHub"
-author: "Groupe 2 : Louise ARSAC, Zélie FROMENT, Charlène LAROCHE, Paul SERVAIN, Axel FALIGOT-GIRARDELLI, Juliette MAYER" 
+title: 'Compilation de données : R Markdown & GitHub'
+author: 'Groupe 2 : Louise ARSAC, Zélie FROMENT, Charlène LAROCHE, Paul SERVAIN, Axel
+  FALIGOT-GIRARDELLI, Juliette MAYER'
 date: "29/04/20"
 output:
-  html_document:
-    fig_caption: yes
-    number_sections: yes
+  word_document:
     toc: yes
-    toc_depth: 3
-    toc_float: true
+    toc_depth: '3'
   pdf_document:
     fig_caption: yes
     number_sections: yes
     toc: yes
     toc_depth: 3
-bibliography: biblio2.bib
+  html_document:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 csl: iso690-author-date-fr-no-abstract.csl
+bibliography: biblio2.bib
 ---
 
 ```{r setup, include=FALSE}
