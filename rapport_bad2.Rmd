@@ -1,6 +1,6 @@
 ---
 title: Super titre vraiment super
-author: 
+author: Louise ARSAC, Zélie FROMENT, Charlène LAROCHE, Paul SERVAIN, Axel FALIGOT-GIRARDELLI, Juliette MAYER
 date: 
 output:
   html_document:
