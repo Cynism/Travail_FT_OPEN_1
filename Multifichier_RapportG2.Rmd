@@ -1,0 +1,49 @@
+---
+title: "Test 1"
+author: "C. Laroche"
+date: "29/04/2020"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes #format glissant de la toc
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#ajouter toute les library nécessaires
+```
+
+```{r logo, echo=FALSE, out.width = '80%', fig.align = "center",fig.cap="Logo Rmarkdown"}
+knitr::include_graphics("rmarkdown.png")
+```
+
+&nbsp;
+
+**Résumé** : Dans ce rapport nous analyserons les temperatures des principales villes françaises.  
+..................................................................................................................
+..................................................................................................................
+
+&nbsp;
+
+# **Présentation des données **
+
+```{r child='Présentation_données.Rmd'}
+```
+
+# **Une première analyse **
+
+```{r child='Première_analyse.Rmd'}
+```
+
+# **Analyse en Composante Principale**
+
+```{r child='ACP.Rmd'}
+```
+
+# **Références**
+
+```{r child='Ref.Rmd'}
+```
+
+
+
