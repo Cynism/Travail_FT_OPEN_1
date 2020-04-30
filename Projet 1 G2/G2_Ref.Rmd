@@ -1,7 +1,7 @@
 ---
 title: "Références"
-author: "Louise Arsac"
-date: "29/04/2020"
+author: "Paul"
+date: "30/04/2020"
 output: html_document
 ---
 
@@ -11,7 +11,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # **Références**
 
-```{r child='Ref.Rmd'}
+&nbsp;
 
-```
+***Liens***
+
+<http://factominer.free.fr/course/donnees/AnaDo_JeuDonnees_TemperatFrance.csv>   
+
+<https://husson.github.io/data.html>
+
+&nbsp;
+
+***Bibliographie***
+
+
+
 
