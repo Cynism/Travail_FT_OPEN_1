@@ -1,5 +1,4 @@
 
-# **Présentation des données **
 
 Les données sont téléchargeables directement sur [ce site](https://husson.github.io/data.html) ou peuvent être importée directement sous R avec : 
  
