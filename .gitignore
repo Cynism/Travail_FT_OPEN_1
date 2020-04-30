@@ -1,3 +1,5 @@
 *.html
 .Rhistory
 .Rproj.user
+*.log
+*.tex
