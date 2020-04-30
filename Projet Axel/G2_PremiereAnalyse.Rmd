@@ -5,10 +5,10 @@ Nous réalisons des graphiques permettant d'analyser, par région :
 
 * La position globale de la températures vis à vis de la moyenne nationale.
 
-  L'évolution mensuelle des températures dont notamment : 
+* L'évolution mensuelle des températures dont notamment : 
   
-     L'amplitude :
-    + L'hétérogénéité inter-villes.
+  * L'amplitude :
+  * L'hétérogénéité inter-villes.
 
 ## **Création d'une fonction graphique**
 
