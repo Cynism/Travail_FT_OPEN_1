@@ -13,10 +13,6 @@ Avec : $d^2_{e_i,g}=\sum^p_{j=1}x^2_{ij}$ = Distance euclidienne au centre de gr
 
 Elles permettent de determiner la proportion d'intertie expliquée par chacuns des axes. 
 
-```{r setPCA, include=FALSE}
-library(FactoMineR) #pas réellement nécessaire si utilisé avec le multifichier et les child mais tout seul oui
-```
-
 ```{r valp, echo = T,eval=T,fig.cap="Valeurs propres",fig.height = 3, fig.align = "center",fig.width = 8}
 res <- PCA(datatemp, quanti.sup=13:16, quali.sup=17,graph=F) #préparation d'une PCA avec les valeurs
 par(mfrow=c(1,1),mar=c(4,4,2,2)) #séparation de l'emplacement pour n'afficher qu'un seul graphique
